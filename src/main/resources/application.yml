@@ -1,0 +1,18 @@
+server:
+  port: 8090
+
+bot:
+  token: 6847616195:AAHtbANEBDdsSuuupvU6lPZXvMkOOazM3f4
+  username: snovit_tutor_bot
+  path: https://5259-89-109-47-222.ngrok-free.app
+
+spring:
+  datasource:
+    password: ${DB_PASSWORD}
+    username: ${DB_USERNAME}
+    url: ${DB_URL}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
