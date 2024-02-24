@@ -2,7 +2,7 @@ server:
   port: 8090
 
 bot:
-  token: 6847616195:AAHtbANEBDdsSuuupvU6lPZXvMkOOazM3f4
+  token: ${token}
   username: snovit_tutor_bot
   path: https://5259-89-109-47-222.ngrok-free.app
 
